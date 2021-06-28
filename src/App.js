@@ -1,25 +1,66 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import './assets/styles.css';
+
+import About from './components/About/About';
+// import PortfolioContainer from './components/PortfolioContainer'
+import Contact from '../src/components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import Portfolio from './components/Portfolio/Portfolio';
+import Resume from './components/Resume/Resume';
+import Home from './components/Home/Home'
+import Nav from './components/Nav/index';
+
 
 function App() {
+  const [currentItem, setCurrentItem] = useState("About");
+  const [navItems] = useState([
+    {
+      name: 'Portfolio',
+      description: 'A list of projects I have built or contributed to.'
+    },
+    {
+      name: 'Contact',
+      description: 'Contact information'
+    },
+    {
+      name: 'Resume',
+      description: 'A link to download my resume.'
+    }
+  ]);
+
+  const displayPage = () => {
+    switch (currentItem) {
+      case 'Home':
+        return <Home />;
+      case 'About':
+        return <About />;
+      case 'Portfolio':
+        return <Portfolio />;
+      case 'Resume':
+        return <Resume />;
+      case 'Contact':
+        return <Contact />;
+      default:
+        return <Home/>
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav
+        currentItem={currentItem}
+        setCurrentItem={setCurrentItem}
+      ></Nav>
+      <div>
+        <main>
+          {displayPage()}
+        </main>
+      </div>
+      <Footer></Footer>
     </div>
   );
 }
+
+// const App = () => <PortfolioContainer />;
 
 export default App;
