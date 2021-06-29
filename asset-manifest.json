@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/my-react-portfolio/static/css/main.d5d29633.chunk.css",
+    "main.js": "/my-react-portfolio/static/js/main.1abd32ae.chunk.js",
+    "main.js.map": "/my-react-portfolio/static/js/main.1abd32ae.chunk.js.map",
+    "runtime-main.js": "/my-react-portfolio/static/js/runtime-main.c04c39e0.js",
+    "runtime-main.js.map": "/my-react-portfolio/static/js/runtime-main.c04c39e0.js.map",
+    "static/js/2.c5edb44f.chunk.js": "/my-react-portfolio/static/js/2.c5edb44f.chunk.js",
+    "static/js/2.c5edb44f.chunk.js.map": "/my-react-portfolio/static/js/2.c5edb44f.chunk.js.map",
+    "static/js/3.182ef9b7.chunk.js": "/my-react-portfolio/static/js/3.182ef9b7.chunk.js",
+    "static/js/3.182ef9b7.chunk.js.map": "/my-react-portfolio/static/js/3.182ef9b7.chunk.js.map",
+    "index.html": "/my-react-portfolio/index.html",
+    "static/css/main.d5d29633.chunk.css.map": "/my-react-portfolio/static/css/main.d5d29633.chunk.css.map",
+    "static/js/2.c5edb44f.chunk.js.LICENSE.txt": "/my-react-portfolio/static/js/2.c5edb44f.chunk.js.LICENSE.txt",
+    "static/media/JanellMyrickProfilePic.842288b3.jpg": "/my-react-portfolio/static/media/JanellMyrickProfilePic.842288b3.jpg",
+    "static/media/dogsvscats.3a15cb6e.png": "/my-react-portfolio/static/media/dogsvscats.3a15cb6e.png",
+    "static/media/janellmyrickResume.pdf": "/my-react-portfolio/static/media/janellmyrickResume.38a5eb95.pdf",
+    "static/media/notetaker.89c9bac2.png": "/my-react-portfolio/static/media/notetaker.89c9bac2.png",
+    "static/media/styles.css": "/my-react-portfolio/static/media/picspree-305681.c469e900.jpg",
+    "static/media/index.css": "/my-react-portfolio/static/media/picspree-459279.796470e3.jpg",
+    "static/media/quizzled.7dd67b9a.png": "/my-react-portfolio/static/media/quizzled.7dd67b9a.png",
+    "static/media/techSpot.28a6a964.png": "/my-react-portfolio/static/media/techSpot.28a6a964.png",
+    "static/media/weatherDashboard.00aec8bb.png": "/my-react-portfolio/static/media/weatherDashboard.00aec8bb.png",
+    "static/media/workday.a31248c7.png": "/my-react-portfolio/static/media/workday.a31248c7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c04c39e0.js",
+    "static/js/2.c5edb44f.chunk.js",
+    "static/css/main.d5d29633.chunk.css",
+    "static/js/main.1abd32ae.chunk.js"
+  ]
+}
