@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.d5d29633.chunk.css",
-    "main.js": "/my-react-portfolio/static/js/main.1abd32ae.chunk.js",
-    "main.js.map": "/my-react-portfolio/static/js/main.1abd32ae.chunk.js.map",
+    "main.js": "/my-react-portfolio/static/js/main.6e4225c2.chunk.js",
+    "main.js.map": "/my-react-portfolio/static/js/main.6e4225c2.chunk.js.map",
     "runtime-main.js": "/my-react-portfolio/static/js/runtime-main.c04c39e0.js",
     "runtime-main.js.map": "/my-react-portfolio/static/js/runtime-main.c04c39e0.js.map",
     "static/js/2.c5edb44f.chunk.js": "/my-react-portfolio/static/js/2.c5edb44f.chunk.js",
@@ -18,15 +18,15 @@
     "static/media/notetaker.89c9bac2.png": "/my-react-portfolio/static/media/notetaker.89c9bac2.png",
     "static/media/styles.css": "/my-react-portfolio/static/media/picspree-305681.c469e900.jpg",
     "static/media/index.css": "/my-react-portfolio/static/media/picspree-459279.796470e3.jpg",
-    "static/media/quizzled.7dd67b9a.png": "/my-react-portfolio/static/media/quizzled.7dd67b9a.png",
     "static/media/techSpot.28a6a964.png": "/my-react-portfolio/static/media/techSpot.28a6a964.png",
     "static/media/weatherDashboard.00aec8bb.png": "/my-react-portfolio/static/media/weatherDashboard.00aec8bb.png",
-    "static/media/workday.a31248c7.png": "/my-react-portfolio/static/media/workday.a31248c7.png"
+    "static/media/workday.a31248c7.png": "/my-react-portfolio/static/media/workday.a31248c7.png",
+    "static/media/zerostars.c57fd4ed.png": "/my-react-portfolio/static/media/zerostars.c57fd4ed.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c04c39e0.js",
     "static/js/2.c5edb44f.chunk.js",
     "static/css/main.d5d29633.chunk.css",
-    "static/js/main.1abd32ae.chunk.js"
+    "static/js/main.6e4225c2.chunk.js"
   ]
 }
