@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import DogsVsCats from '../../assets/large/dogsvscats.png'
 import NoteTaker from '../../assets/large/notetaker.png'
-import Quizzled from '../../assets/large/quizzled.png'
+import Zerostars from '../../assets/large/zerostars.png'
 import TechSpot from '../../assets/large/techSpot.png'
 import WeatherDashboard from '../../assets/large/weatherDashboard.png'
 import WorkDay from '../../assets/large/workday.png'
@@ -33,11 +33,11 @@ function Portfolio() {
       </div>
       <div className="columns">
         <div className="column is-half">
-          <h2 className="title has-text-centered"> Quizzled 
-          <a href="https://github.com/luvthatduck/Code-Quiz-Challenge" target="_blank"><i class="fab fa-github icon is-large" href></i></a> </h2>
-          <a className="image is-2by1" href="https://luvthatduck.github.io/Code-Quiz-Challenge/" target="_blank" rel="noreferrer">
+          <h2 className="title has-text-centered"> Zero Stars 
+          <a href="https://zero-stars-8.herokuapp.com/" target="_blank"><i class="fab fa-github icon is-large" href></i></a> </h2>
+          <a className="image is-2by1" href="https://github.com/avamariee/zero-stars" target="_blank" rel="noreferrer">
             <img
-              src={Quizzled}
+              src={Zerostars}
               alt="A timed multiple-choice coding quiz. "
             />
           </a>
