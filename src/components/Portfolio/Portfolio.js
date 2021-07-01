@@ -34,8 +34,8 @@ function Portfolio() {
       <div className="columns">
         <div className="column is-half">
           <h2 className="title has-text-centered"> Zero Stars 
-          <a href="https://zero-stars-8.herokuapp.com/" target="_blank"><i class="fab fa-github icon is-large" href></i></a> </h2>
-          <a className="image is-2by1" href="https://github.com/avamariee/zero-stars" target="_blank" rel="noreferrer">
+          <a href="https://github.com/avamariee/zero-stars" target="_blank"><i class="fab fa-github icon is-large" href></i></a> </h2>
+          <a className="image is-2by1" href="https://zero-stars-8.herokuapp.com/" target="_blank" rel="noreferrer">
             <img
               src={Zerostars}
               alt="A timed multiple-choice coding quiz. "
