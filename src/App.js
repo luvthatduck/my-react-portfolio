@@ -8,7 +8,7 @@ import Footer from './components/Footer/Footer';
 import Portfolio from './components/Portfolio/Portfolio';
 import Resume from './components/Resume/Resume';
 import Home from './components/Home/Home'
-import Nav from './components/Nav/index';
+import AppNav from './components/Nav';
 
 
 function App() {
@@ -47,10 +47,10 @@ function App() {
 
   return (
     <div>
-      <Nav
+      <AppNav
         currentItem={currentItem}
         setCurrentItem={setCurrentItem}
-      ></Nav>
+      ></AppNav>
       <div>
         <main>
           {displayPage()}
