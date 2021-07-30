@@ -11,6 +11,9 @@ footer {
   align-content: center;
   justify-content: center;
   background-color: black;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight:200;
+  padding-top: 15px;
 }
 
 .hero {
@@ -57,13 +60,18 @@ footer {
 
 }
 
+.images img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
 h1.nav-title {
-  font-weight: bolder;
-  font-size: 50px;
+  font-weight:200;
+  font-size:100px;
   color: black;
   padding-left: 20px;
   padding-top: 10px;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Fredericka the Great', cursive;
 }
 .h2 {
   color: black;
@@ -110,7 +118,7 @@ div.box {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
   color: black;
-  
+  border-radius: 10px; 
 }
 
 div.container {
@@ -127,3 +135,11 @@ img.profilepic {
 .section {
   background-color: black;
 }
+
+.icon {
+ color: gray;
+}
+
+.icon:hover {
+  color: green ;
+ }

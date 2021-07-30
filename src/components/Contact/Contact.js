@@ -34,6 +34,7 @@ function Contact() {
   };
 
   return (
+    <section className="section">
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', }}>
       <div class="card2 mt-5">
         <div class="card-content">
@@ -67,6 +68,7 @@ function Contact() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 
