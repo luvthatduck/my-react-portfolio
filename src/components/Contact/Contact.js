@@ -41,17 +41,15 @@ function Contact() {
 
 
   return (
-    <section className="section">
-      <div style={{ display: 'flex', justifyContent: 'left', }}>
+    // <container className="section">
+    //   <div style={{ display: 'flex', justifyContent: 'center', }}>
 
-        <div class="card-content">
+        <div class="Contactcard-content" style={{ display: 'flex', justifyContent: 'center', }}>
+         <div>
           <h1 data-testid="h1tag">Contact Me</h1>
-          <h1>  **Temporarily Under Construction.**
-            <br></br> Please Email me directly at 
-            <br></br>madeby.jmyrick@gmail.com</h1>
 
-          <div class="content">
-            <div className="mb-3" controlId="formBasicEmail" id="contact-form" onSubmit={sendEmail} style={{ display: 'flex', alignItems: 'start', flexDirection: 'column', alignContent: 'stretch', flexGrow: '4' }}>
+          <div class="ContactContent" style={{ display: 'flex', justifyContent: 'center', }}>
+            <form  id="contact-form" onSubmit={sendEmail} style={{ display: 'flex',  justifyContent: 'center', alignItems: 'start', flexDirection: 'column', alignContent: 'stretch', flexGrow: '4' }}>
               <div class="control has-icons-left ">
                 <input class="input is-medium" type="text" name="name" defaultValue={name} onBlur={handleChange} placeholder="Name" />
                 <span class="icon is-small is-left">
@@ -73,12 +71,12 @@ function Contact() {
                 </div>
               )}
               <button data-testid="button" type="submit" class="button is-light">Submit</button>
-            </div>
+            </form>
           </div>
         </div>
 
       </div>
-    </section>
+    // </container>
   );
 }
 
