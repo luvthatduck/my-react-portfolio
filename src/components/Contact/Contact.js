@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
 import { validateEmail } from '../../utils/helpers';
+import emailjs from 'emailjs-com';
 
 function Contact() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -8,13 +8,18 @@ function Contact() {
   const [errorMessage, setErrorMessage] = useState('');
   const { name, email, message } = formState;
 
-  const handleSubmit = (e) => {
+
+  function sendEmail(e) {
     e.preventDefault();
-    if (!errorMessage) {
-      setFormState({ [e.target.name]: e.target.value });
-      console.log('Form', formState);
-    }
-  };
+
+    emailjs.sendForm('service_1bypf4p', 'template_hn6yaqs', e.target, 'user_UaaskYnoT1HUQIif8EjYb')
+      .then((result) => {
+        console.log(result.text);
+        setErrorMessage('Thanks! I will get back to you shortly');
+      }, (error) => {
+        console.log(error.text);
+      });
+  }
 
   const handleChange = (e) => {
     if (e.target.name === 'email') {
@@ -31,17 +36,22 @@ function Contact() {
         setErrorMessage('');
       }
     }
-  };
+
+  }
+
 
   return (
     <section className="section">
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', }}>
-      <div class="card2 mt-5">
+      <div style={{ display: 'flex', justifyContent: 'left', }}>
+
         <div class="card-content">
           <h1 data-testid="h1tag">Contact Me</h1>
-          <h3>(Sorry... this is under construction)</h3>
-          <div class="content ">
-            <form id="contact-form" onSubmit={handleSubmit} style={{ display: 'flex', alignItems: 'start', flexDirection: 'column', }}>
+          <h1>  **Temporarily Under Construction.**
+            <br></br> Please Email me directly at 
+            <br></br>madeby.jmyrick@gmail.com</h1>
+
+          <div class="content">
+            <div className="mb-3" controlId="formBasicEmail" id="contact-form" onSubmit={sendEmail} style={{ display: 'flex', alignItems: 'start', flexDirection: 'column', alignContent: 'stretch', flexGrow: '4' }}>
               <div class="control has-icons-left ">
                 <input class="input is-medium" type="text" name="name" defaultValue={name} onBlur={handleChange} placeholder="Name" />
                 <span class="icon is-small is-left">
@@ -55,19 +65,19 @@ function Contact() {
                 </span>
               </div>
               <div class="control has-icons-left " >
-                <textarea class="textarea is-medium" name="message" rows="5" defaultValue={message} onBlur={handleChange} placeholder="Send Me A Message" />
+                <textarea class="textarea is-large" name="message" rows="5" defaultValue={message} onBlur={handleChange} placeholder="Send Me A Message" />
               </div>
               {errorMessage && (
                 <div>
                   <p className="error-text">{errorMessage}</p>
                 </div>
               )}
-              <button data-testid="button" type="submit" class="has-background-black">Submit</button>
-            </form>
+              <button data-testid="button" type="submit" class="button is-light">Submit</button>
+            </div>
           </div>
         </div>
+
       </div>
-    </div>
     </section>
   );
 }

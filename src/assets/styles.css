@@ -111,7 +111,7 @@ div.box {
 
 .card2 {
   width: 55%;
-  background-color: white;
+  background-color: rgba(172, 172, 172, 0.801);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
   color: black;
@@ -154,3 +154,9 @@ img.profilepic {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+/* Contact Page */
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
