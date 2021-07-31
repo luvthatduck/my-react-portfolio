@@ -1,9 +1,9 @@
-
 body {
   font-family: 'Raleway', sans-serif;
   color: white;
   background-color: black;
 }
+
 footer {
   display: flex;
   color: white;
@@ -12,7 +12,7 @@ footer {
   justify-content: center;
   background-color: black;
   font-family: 'Fredericka the Great', cursive;
-  font-weight:200;
+  font-weight: 200;
   padding-top: 15px;
 }
 
@@ -26,9 +26,11 @@ footer {
   align-content: center;
   background-color: black;
 }
+
 .box {
   background-color: black;
 }
+
 .title {
   font-family: 'Raleway', sans-serif;
   color: #DEE2E6;
@@ -57,7 +59,6 @@ footer {
   width: 75%;
   height: auto;
   border: black solid transparent;
-
 }
 
 .images img:hover {
@@ -66,13 +67,14 @@ footer {
 }
 
 h1.nav-title {
-  font-weight:200;
-  font-size:100px;
+  font-weight: 200;
+  font-size: 50px;
   color: black;
   padding-left: 20px;
   padding-top: 10px;
   font-family: 'Fredericka the Great', cursive;
 }
+
 .h2 {
   color: black;
   font-family: 'Raleway', sans-serif;
@@ -82,22 +84,18 @@ h1.nav-title {
   height: 60px;
 }
 
-
 .navbar-item {
   font-weight: bolder;
   font-size: 20px;
-  padding-left:85px;
+  padding-left: 55px;
 }
 
-.resume-anchor {
-  color: blue;
-}
 
 
 div.box {
   /* display: flex; */
-  width:100%;
-  background-color: white;
+  width: 100%;
+  /* background-color: white; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
   /* justify-content: center; */
@@ -109,16 +107,15 @@ div.box {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
-
-
 }
+
 .card2 {
   width: 55%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
   color: black;
-  border-radius: 10px; 
+  border-radius: 10px;
 }
 
 div.container {
@@ -137,9 +134,23 @@ img.profilepic {
 }
 
 .icon {
- color: gray;
+  color: gray;
 }
 
 .icon:hover {
-  color: green ;
- }
+  color: green;
+}
+
+.a.a.resume-anchor {
+  color: blue;
+  text-decoration: none;
+}
+.btnTitle {
+  color: black;
+}
+
+.skillBox,.mb-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
